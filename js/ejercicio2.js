@@ -1,0 +1,1 @@
+const mensaje = document.getElementById('mensaje'); const contador = document.getElementById('contador'); mensaje.addEventListener('input', function() { const cantidad = mensaje.value.length; contador.textContent = `Caracteres ingresados: ${cantidad}`; });
